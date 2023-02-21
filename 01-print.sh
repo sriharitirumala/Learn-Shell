@@ -13,8 +13,9 @@ echo hello world
 # Cyan            36
 
 
-# \e[0m" -> zero code is going to reset the color, meaning if we enable color for sure we need to disable it, otherwise it will continue on screen
-
+# \e[0m" -> zero code is going to reset the color,
+  meaning if we enable color for sure we need to disable it, otherwise it will continue on screen
+# we can use double or single quotes ; however double quotes are prefered
 
 echo -e "\e[31mhello in Red Color\e[0m"
 echo hello world
