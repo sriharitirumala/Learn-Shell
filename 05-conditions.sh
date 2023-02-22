@@ -1,7 +1,7 @@
 number=$1
 string=$2
 
-if [ "${number}" -eq 5 ]; then
+if [ "${number}" -eq 5 ]; then # then can go in next line
   echo number is 5
 fi
 
